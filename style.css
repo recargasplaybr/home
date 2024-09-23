@@ -64,7 +64,7 @@ nav a:hover {
         color: red;
         border-radius: 2vh;
         padding: 1vh;
-        margin-right: 0.5vh;
+        margin-right: 1vh;
         font-family: bold;
     }
     
@@ -171,7 +171,7 @@ nav a {
 .option1 {
     color: red;
     border-radius: 2vh;
-    margin-right: 0.5vh;
+    margin-right: 1vh;
     margin-top: 1vh;
     font-family: bold;
     }
