@@ -144,11 +144,12 @@ li {
   
   .card {
     font-family: 'Roboto', sans-serif;
-    width: 20%; /* Largura de cada card */
+    width: 20%;
     background-color: #f0f0f0;
-    margin: 10px; /* Margem entre os cards */
+    margin: 10px;
     border-radius: 10px;
-  }
+    border: ridge #222;
+}
   
   .container-link {
     text-decoration: none;
@@ -242,6 +243,7 @@ nav a {
 }
     .card {
     width: 43%;
+    border: ridge #222;
 
   }
 }
