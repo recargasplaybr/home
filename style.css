@@ -78,7 +78,7 @@ li {
     transition: background-color 0.3s;
     border-radius: 5px;
     font-size: 15px;
-    border: black solid 1px;
+    border: white solid 1px;
     background:#222;
     margin-left: 1vh;
 }
