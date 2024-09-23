@@ -69,22 +69,34 @@ li {
     border: black solid 1px;
     margin-left: 1vh;
 }
+
+.menu1 li {
+    padding: 5px;
+    margin: 7px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 15px;
+    border: black solid 1px;
+    background-color:#fff;
+    margin-left: 1vh;
+}
 .option1 {
     padding: 0;
     margin-right: 0.5vh;
     margin-top: 1vh;
     font-family: bold;
-    color: #fff;
-    text-shadow: 0.2vh 0.2vh 0.2vh red;
+    color: #000;
+    text-shadow: 0.1vh 0.1vh 0.1vh red;
 }
  .optiona {
     margin-left: 1vh;
-    color: #fff;
-    text-shadow: 0.2vh 0.2vh 0.2vh #159436;
+    color: #000;
+    text-shadow: 0.1vh 0.1vh 0.1vh #159436;
 }
  .optionb {
-    color: #fff;
-    text-shadow: 0.2vh 0.2vh 0.2vh #159436;
+    color: #000;
+    text-shadow: 0.1vh 0.1vh 0.1vh #159436;
 }
 
     .option {
