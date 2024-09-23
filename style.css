@@ -165,6 +165,17 @@ nav a:hover {
     align-items: center;
     justify-content: center;
 }
+    .recargas {
+    color: #fff;
+    text-shadow: 0.1vh 0.1vh 0.1vh #159436;
+}
+
+.gift-cards {
+    color: #fff;
+    text-shadow: 0.1vh 0.1vh 0.1vh #ff000c;
+
+}
+    
     nav.menu1 {
         margin-top: 9vh;
         margin-left: -44vh;
