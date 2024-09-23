@@ -149,7 +149,11 @@ nav a:hover {
     color: #fff;
     font-size: 1.5vh;
     margin-top: 2vh;
-    margin-left: -41vh;
+    margin-left: -37vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 nav.menu1 {
     margin-top: 7vh;
