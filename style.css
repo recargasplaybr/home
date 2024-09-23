@@ -168,11 +168,15 @@ nav a:hover {
     .recargas {
     color: #fff;
     text-shadow: 0.1vh 0.1vh 0.1vh #159436;
+    margin-right:0.5vh;
+    margin-left: 0.5vh;
 }
 
 .gift-cards {
     color: #fff;
     text-shadow: 0.1vh 0.1vh 0.1vh #ff000c;
+    margin-right:0.5vh;
+    margin-left: 0.5vh;
 
 }
     
