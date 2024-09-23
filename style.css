@@ -173,7 +173,7 @@ li {
 @media (max-width: 768px) {
     header {
     background: linear-gradient(to right, #000, #fff);
-    height: 12vh;
+    height: 13vh;
     display: flex;
     align-items: center;
 }
@@ -237,5 +237,6 @@ nav a {
     align-items: normal;
     box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.5);
     font-size: 1.5em;
+    margin-top:1vh;
 }
 }
