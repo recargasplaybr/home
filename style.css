@@ -60,6 +60,9 @@ nav a:hover {
         margin-top: 1vh;
         font-family: bold;
     }
+    .optiona{color:#159436;}
+    .optionb{color:#000;}
+
     .option {
         color: red;
         border-radius: 2vh;
