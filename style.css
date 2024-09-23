@@ -238,4 +238,10 @@ nav a {
     font-size: 1.5em;
     margin-top:0.5vh;
 }
+    .card {
+    width: 44%;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 10px;
+}
 }
