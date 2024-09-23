@@ -138,23 +138,32 @@ nav a:hover {
     display: flex;
     align-items: center;
 }
-    .logo {
+.logo {
     height: 6vh;
-    margin-left: 1vh;
+    margin-left: 8vh;
     margin-top: -5vh;
 }
 .slogan {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    margin: 0 0.5vh;
     color: #fff;
-    font-size: 2vh;
-    margin-top: -5vh;
+    font-size: 1.5vh;
+    margin-top: 2vh;
+    margin-left: -33vh;
 }
 nav.menu1 {
-        margin-top: 7vh;
-        margin-left: -75vh;
-    }
+    margin-top: 7vh;
+    margin-left: -33vh;
+
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 2vh;
+    margin-right: 0.5vh;
+    font-size: 1.8vh;
+    transition: all 0.3s ease;
+}
 .option1 {
     color: red;
     border-radius: 2vh;
