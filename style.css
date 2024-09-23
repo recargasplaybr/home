@@ -48,7 +48,11 @@ nav a {
     font-size: 3vh;
     transition: all 0.3s ease;
 }
-
+nav.menu1 {
+        margin-top: 9vh;
+        margin-left: -2vh;
+        width: 100%;
+    }
 nav a:hover {
     color: red;
 }
@@ -196,7 +200,7 @@ li {
 }
     nav.menu1 {
         margin-top: 9vh;
-        margin-left: -44vh;
+        margin-left: -46vh;
         width: 100%;
     }
 nav a {
