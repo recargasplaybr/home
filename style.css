@@ -195,6 +195,9 @@ nav a {
     margin-top: 1vh;
     font-family: bold;
 }
+    .optiona {
+    margin-left: 2vh;
+}
 .menu {
     overflow-x: auto;
     scrollbar-width: thin;
