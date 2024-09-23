@@ -179,14 +179,14 @@ li {
 .logo {
     height: 6vh;
     margin-left: 9vh;
-    margin-top: -5vh;
+    margin-top: -5.5vh;
 }
 .slogan {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     color: #fff;
     font-size: 1.5vh;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     margin-left: -38vh;
     width: 100%;
     display: flex;
@@ -194,7 +194,7 @@ li {
     justify-content: center;
 }
     nav.menu1 {
-        margin-top: 9vh;
+        margin-top: 8.5vh;
         margin-left: -46vh;
         width: 100%;
     }
