@@ -52,18 +52,23 @@ nav a {
 nav a:hover {
     color: red;
 }
-    .option1 {
-        color: red;
-        padding: 0;
-        margin-right: 0.5vh;
-        margin-top: 1vh;
-        font-family: bold;
-    }
-    .optiona {
-    color: #159436;
-    margin-left: 1vh;
+.option1 {
+    padding: 0;
+    margin-right: 0.5vh;
+    margin-top: 1vh;
+    font-family: bold;
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh 0.2vh red;
 }
-    .optionb{color:#000;}
+ .optiona {
+    margin-left: 1vh;
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh 0.2vh #159436;
+}
+ .optionb {
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh 0.2vh #159436;
+}
 
     .option {
         color: red;
