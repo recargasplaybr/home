@@ -163,19 +163,19 @@ nav a:hover {
 nav a {
     color: black;
     text-decoration: none;
-    padding: 2vh;
+    padding: 1vh;
     margin-right: 0.5vh;
     font-size: 1.8vh;
     transition: all 0.3s ease;
-}
+}}
 .option1 {
     color: red;
     border-radius: 2vh;
-    padding: 0;
     margin-right: 0.5vh;
-    margin-top: 2vh;
+    margin-top: 1vh;
     font-family: bold;
-}
+    }
+    
 .option {
     color: red;
     border-radius: 2vh;
