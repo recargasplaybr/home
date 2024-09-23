@@ -52,6 +52,23 @@ nav a {
 nav a:hover {
     color: red;
 }
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 0em;
+}
+li {
+    padding: 5px;
+    margin: 7px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 15px;
+    border: black solid 1px;
+    margin-left: 1vh;
+}
 .option1 {
     padding: 0;
     margin-right: 0.5vh;
@@ -165,21 +182,6 @@ nav a:hover {
     align-items: center;
     justify-content: center;
 }
-    .recargas {
-    color: #fff;
-    text-shadow: 0.1vh 0.1vh 0.1vh #159436;
-    margin-right:0.5vh;
-    margin-left: 0.5vh;
-}
-
-.gift-cards {
-    color: #fff;
-    text-shadow: 0.1vh 0.1vh 0.1vh #ff000c;
-    margin-right:0.5vh;
-    margin-left: 0.5vh;
-
-}
-    
     nav.menu1 {
         margin-top: 9vh;
         margin-left: -44vh;
@@ -193,6 +195,7 @@ nav a {
     font-size: 1.8vh;
     transition: all 0.3s ease;
 }
+
 .option1 {
     color: red;
     border-radius: 2vh;
