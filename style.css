@@ -24,6 +24,10 @@ header {
     color: #fff;
     font-size: 3vh;
 } 
+nav.menu1 {
+        background-color:#fff;
+        border-radius:5px;
+    }
 .recargas {
     color: #fff;
     text-shadow: 0.2vh 0.2vh 0.2vh #159436;
