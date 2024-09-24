@@ -346,6 +346,12 @@ nav a {
     font-size: 2vh;
     margin-top: 4vh;
     width: 98%;
-    margin-left:5%;
+    margin-left:6%;
 }
+    h6 {
+            font-family: 'Roboto', sans-serif;
+            color: red;
+            font-size:1.7vh;
+             margin-left:6%;
+        }
 }
