@@ -338,6 +338,7 @@ nav a {
     font-size: 2vh;
     margin-top: 3vh;
     width: 98%;
+    margin-left:6%;
 }
 .valores {
     border: solid black 1px;
@@ -345,5 +346,6 @@ nav a {
     font-size: 2vh;
     margin-top: 4vh;
     width: 98%;
+    margin-left:5%;
 }
 }
