@@ -99,7 +99,7 @@ li {
 }
 
 .base {
-    width: 80%;
+    width: 100%;
     background-color: #fff;
     height: 80vh;
     display: flex;
@@ -330,7 +330,7 @@ nav a {
         border-radius: 10px;
         margin-top: 64vh;
         margin-right: -30.5vh;
-        margin-left: -65.5vh;
+        margin-left: -70.5vh;
     }
 .usar {
     border: solid black 1px;
