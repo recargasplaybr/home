@@ -305,12 +305,13 @@ nav a {
     border: groove #222 1px;
     border-radius: 10px;
 }
-.left {
-    width: 100%;
-    margin-left: -28vh;
-    margin-right: 23vh;
-    margin-top: -65vh;
-}
+    .left {
+        width: 100%;
+        margin-left: -63%;
+        margin-right: 86%;
+        margin-top: 0vh;
+        height: 100%;
+    }
 .banner {
     width: 100%;
     object-fit: cover; /* Mantém a proporção da imagem, preenchendo todo o espaço disponível */
