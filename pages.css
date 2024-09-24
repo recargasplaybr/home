@@ -293,7 +293,7 @@ nav a {
 }
 
 .base {
-    width: 100%;
+    width: 99%;
     background-color: #fff;
     height: 145vh;
     display: flex;
