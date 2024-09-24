@@ -174,7 +174,7 @@ li {
 
 @media (max-width: 768px) {
     header {
-    background: linear-gradient(to right, #000, #fff);
+    background: linear-gradient(to right, #000, #d3d3d3);
     height: 13vh;
     display: flex;
     align-items: center;
