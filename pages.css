@@ -322,7 +322,7 @@ nav a {
     text-align: left;
     font-size: 1.5vh;
     margin-top: 2vh;
-    width:99.8%;
+    width:98%;
 }
     .right {
         width: 100%;
@@ -337,7 +337,7 @@ nav a {
     text-align: center;
     font-size: 2vh;
     margin-top: 3vh;
-    width: 100%;
+    width: 98%;
     margin-left: 3%;
 }
 .valores {
@@ -345,7 +345,7 @@ nav a {
     text-align: center;
     font-size: 2vh;
     margin-top: 4vh;
-    width: 100%;
+    width: 98%;
     margin-left: 3%;
 }
 }
