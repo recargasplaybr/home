@@ -182,6 +182,11 @@ li {
     color: black;
     font-size: 1.1em;
 }
+#jivoScript.destacado {
+    /* Estilos para destacar o script, por exemplo: */
+    background-color: yellow;
+    border: 2px solid red;
+}
 
 @media (max-width: 768px) {
     header {
