@@ -16,6 +16,7 @@
             <li><a class="option1" href="#">Home</a></li>
             <li><a class="optiona" href="#">Por Que Comprar Aqui?</a></li>
             <li><a class="optionb" href="#">Contato</a></li>
+              <li class= "optionb"<button id="meuBotao">Contato</button></li>
           </ul>
         </nav>
    
@@ -118,5 +119,10 @@
           </a></div>
       </div>
     <script id="jivoScript" src="//code.jivosite.com/widget/xMICMJo9MA" async=""></script>
+    <script>
+        document.getElementById("meuBotao").addEventListener("click", function() {
+            document.getElementById("jivoScript").classList.add("destacado");
+        });
+    </script>
     </body>
 </html>
