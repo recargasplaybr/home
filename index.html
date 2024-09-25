@@ -17,6 +17,7 @@
             <li><a class="optiona" href="#">Por Que Comprar Aqui?</a></li>
             <li><a class="optionb" href="#">Contato</a></li>
              <li></li><a class="CTTbtn" href="javascript:void(0);">Contato</a></li>
+              <button id="btnDestaque">Destacar Elemento</button>
           </ul>
         </nav>
    <div class="ARROWjdiv">
@@ -122,17 +123,17 @@
             <p>Gift Card<br> Zé Delivery</p>
           </a></div>
       </div>
-    <div class="script-container">
+     <div id="elementoDestacado">
         <script src="//code.jivosite.com/widget/xMICMJo9MA" async></script>
     </div>
-
+  <div id="fundoEscurecido"></div>
     <script>
-        const botao = document.getElementById('btn-contato');
-        const scriptContainer = document.querySelector('.script-container');
+        const btnDestaque = document.getElementById('btnDestaque');
+        const fundoEscurecido = document.getElementById('fundoEscurecido');
 
-        botao.addEventListener('click', () => {
-            scriptContainer.classList.toggle('destacado');
-        });
+btnDestaque.addEventListener('click', () => {
+    fundoEscurecido.style.display = 'block';
+});
     </script>
     </body>
 </html>
