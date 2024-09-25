@@ -101,8 +101,8 @@ li {
     width: 50%;
     height: auto;
     background-color: #fff;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .imagem {
     width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
@@ -243,8 +243,6 @@ nav a {
     width: 100%;
     height: auto;
     background-color: #fff;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 }
