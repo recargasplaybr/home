@@ -16,7 +16,6 @@
             <li><a class="option1" href="#">Home</a></li>
             <li><a class="optiona" href="#">Por Que Comprar Aqui?</a></li>
             <li><a class="optionb" href="#">Contato</a></li>
-              <li><button id="meuBotao">Contato</button></li>
           </ul>
         </nav>
    
@@ -118,10 +117,16 @@
             <p>Gift Card<br> Zé Delivery</p>
           </a></div>
       </div>
-    <script id="jivoScript" src="//code.jivosite.com/widget/xMICMJo9MA" async=""></script>
+    <div class="script-container">
+        <script src="//code.jivosite.com/widget/xMICMJo9MA" async></script>
+    </div>
+
     <script>
-        document.getElementById("meuBotao").addEventListener("click", function() {
-            document.getElementById("jivoScript").classList.add("destacado");
+        const botao = document.getElementById('btn-contato');
+        const scriptContainer = document.querySelector('.script-container');
+
+        botao.addEventListener('click', () => {
+            scriptContainer.classList.toggle('destacado');
         });
     </script>
     </body>
