@@ -182,17 +182,49 @@ li {
     color: black;
     font-size: 1.1em;
 }
-.script-container {
-            background-color: #f0f0f0;
-            padding: 10px;
-        }
 
-        .destacado {
-            background-color: yellow;
-            border: 2px solid black;
-            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-            transform: scale(1.1);
-        }
+.ARROWjdiv {
+	z-index: 45;
+	position: fixed;
+	top: 0;
+	right: -6px;
+	bottom: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+	outline: 0
+}
+
+.ARROWjdiv::after {
+	content: '';
+	background: rgba(0, 0, 0, .7);
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+.JDIVinst {
+	z-index: 1;
+	position: absolute;
+	right: 90px;
+	bottom: 106px;
+	animation: arrow 1.3s ease-in-out infinite
+}
+
+.JDIVinst,
+.JDIVinst::after {
+	width: 60px;
+	height: 60px;
+	display: block
+}
+
+.JDIVinst::after {
+	content: ''
+}
 
 @media (max-width: 768px) {
     header {
