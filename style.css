@@ -94,17 +94,17 @@ li {
     background:#222;
     margin-left: 1vh;
 }
-.option1 
+a.option1 {
     padding: 0;
     margin-right: 0.5vh;
     margin-top: 1vh;
     color: red;
 }
- .optiona {
+ a.optiona {
     margin-left: 1vh;
     color: #fff;
 }
- .optionb {
+ a.optionb {
     color: #fff;
 
 }
