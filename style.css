@@ -94,12 +94,10 @@ li {
     background:#222;
     margin-left: 1vh;
 }
-.option1 {
-    font-family: 'Roboto', sans-serif;
+.option1 
     padding: 0;
     margin-right: 0.5vh;
     margin-top: 1vh;
-    font-family: bold;
     color: red;
 }
  .optiona {
@@ -240,7 +238,6 @@ nav a {
     border-radius: 2vh;
     margin-right: 0vh;
     margin-top: 1vh;
-    font-family: bold;
     }
     
 .option {
@@ -250,7 +247,6 @@ nav a {
     margin-right: 1vh;
     margin-left: 0.5vh;
     margin-top: 1vh;
-    font-family: bold;
 }
     .optiona {
     margin-left: 2vh;
