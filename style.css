@@ -191,8 +191,10 @@ a.option1 {
         justify-content: center;
     }
       .logo {
-        width: 100%;
+        width: 60%;
         height: auto;
+          margin-left:20%
+          margin-right:20%
       }
       .slogan {
         font-family: 'Times New Roman', Times, serif;
