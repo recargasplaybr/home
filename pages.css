@@ -192,6 +192,7 @@ h5 {
     height: 6vh;
     margin-left: 9vh;
     margin-top: -5.5vh;
+    margin-bottom: 1vh;
 }
 .slogan {
     font-family: 'Times New Roman', Times, serif;
@@ -204,7 +205,6 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:0.5vh;
 }
     .recargas {
     color: #fff;
