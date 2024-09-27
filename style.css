@@ -1,121 +1,268 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <title>Meu Site</title>
-</head>
-<body>
-    <header>
-        <img src="LOGOtransparente.png" alt="Logo do seu site" class="logo">
-        <h2 class="slogan">O mais completo site de  <span class="recargas"> recargas </span>  e  <span class="gift-cards"> gift cards </span>  do Brasil.</h2>
-        <nav class="menu1">
-          <ul>
-            <li><a class="option1" href="#">Home</a></li>
-            <li><a class="optiona" href="#">Por Que Comprar Conosco?</a></li>
-            <li><a class="optionb" href="javascript:void(0);" onclick="window.jivo_api.open()">Contato</a></li>
-          </ul>
-        
-      </div>
-    </header>
-</div>
+body {
+    margin: 0;
+    background: linear-gradient(to right, #000, #d3d3d3);
+}
 
-    <nav class="menu">
-      <ul>
-        <li><a class="option" href="index.html">Todos</a></li>
-        <li><a href="sobre.html">Celular</a></li>
-        <li><a href="contato.html">Streaming</a></li>
-        <li><a href="index.html">Jogos</a></li>
-        <li><a href="sobre.html">Lojas</a></li>
-        <li><a href="contato.html">TV</a></li>
-        <li><a href="sobre.html">Alimentação</a></li>
-        <li><a href="contato.html">Moda</a></li>
-        <li><a href="index.html">Outros</a></li>
-    </ul>
-      </nav>
-      <div class="container-principal">
-        <div class="card"><a href="gift-card-airbnb" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/d7dc91a5-abcd-4a17-a7c0-dfbe17c7bac4" alt="Gift Card Airbnb">
-            <p>Gift Card<br> Airbnb</p>
-          </a></div>
-          <div class="card"><a href="gift-card-app-store" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/096af5cb-8f1d-4cec-a588-d4020b27c16d" alt="Gift Card Apple Store">
-            <p>Gift Card<br> App Store</p>
-          </a></div>
-          <div class="card"><a href="gift-card-free-fire" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/87975c47-edde-46a4-b5bc-530a39ba86a2" alt="Gift Card Free Fire">
-            <p>Gift Card<br> Free Fire</p>
-          </a></div>
-          <div class="card"><a href="gift-card-gamers" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/e09580f9-6f48-4193-8966-82c5a16f3c01" alt="Gift Card Gamers">
-            <p>Gift Card<br> Gamers</p>
-          </a></div>
-          <div class="card"><a href="gift-card-google-play" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/be4b0679-6aab-4d4b-9db0-e3f3ef78e802" alt="Gift Card Google Play">
-            <p>Gift Card<br> Google Play</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-xbox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/5a30b9f9-fe69-4515-9d6d-4fa162fe19a2" alt="Gift Card Nintendo Eshop">
-            <p>Gift Card<br> Nintendo Eshop</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-xbox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/61" alt="Gift Card Netflix">
-            <p>Gift Card<br> Netflix</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-xbox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/e6a36979-786b-4c39-b3ed-f69afc3e7865" alt="Gift Card Nike">
-            <p>Gift Card<br> Nike</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-xbox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/165" alt="Gift Card Nuuvem Games">
-            <p>Gift Card<br> Nuuvem Games</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-playstation" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/842cac93-004f-4d8c-8172-9325c59321f3" alt="Gift Card Petlove">
-            <p>Gift Card<br> Petlove</p>
-          </a></div>
-          <div class="card"><a href="gift-card-sony-playstation" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/23027837-04e9-4caf-afc5-693c717c9719" alt="Gift Card Playstation">
-            <p>Gift Card<br> Playstation</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-roblox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/366c36b4-84f2-4dc2-a2ed-d0373e22f89d" alt="Gift Card Razer Gold">
-            <p>Gift Card<br> Razer Gold</p>
-          </a></div>
-          <div class="card"><a href="gift-card-roblox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/169" alt="Gift Card Roblox">
-            <p>Gift Card<br> Roblox</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-roblox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/01e4bf28-e152-4bc9-b063-c148a4e04a80" alt="Gift Card Spotify Premium">
-            <p>Gift Card<br> Spotify Premium</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-roblox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/086c8fca-0bc6-45a4-802a-434cf678ea18" alt="Gift Card Steam">
-            <p>Gift Card<br> Steam</p>
-          </a></div>
-        <div class="card"><a href="gift-card-uber" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/60" alt="Gift Card Uber">
-            <p>Gift Card<br> Uber</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-uber" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/00208249-7b02-48e9-bef4-d6ce371c99df" alt="Gift Card Valorant">
-            <p>Gift Card<br>Valorant</p>
-          </a></div>
-          <div class="card"><a href="gift-card-xbox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/84" alt="Gift Card Xbox">
-            <p>Gift Card<br> Xbox</p>
-          </a></div>
-           <div class="card"><a href="gift-card-xbox-game-pass-ultimate" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/81" alt="Gift Xbox Game Pass Ultimate">
-            <p>Gift Card<br> Xbox Game Pass Ult</p>
-          </a></div>
-          <div class="card"><a href="https://www.exemplo.com/gift-card-xbox" class="container-link">
-            <img src="https://marketplace.bancointer.com.br/gift-card/v2/images/ed560fe6-97be-4ad5-9171-bb5f07575e18" alt="Gift Card Zé Delivery">
-            <p>Gift Card<br> Zé Delivery</p>
-          </a></div>
-      </div>
-        <script src="//code.jivosite.com/widget/xMICMJo9MA" async></script>
-    </body>
-</html>
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #222;
+    border-radius: 10px;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  header {
+    background: linear-gradient(to right, #000, #d3d3d3);
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 6vh;
+    margin-left: 1vh;
+}
+
+.logo:hover {transform: scale(1.1);
+
+}
+
+.slogan {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0 0.5vh;
+    color: #fff;
+    font-size: 3vh;
+} 
+.recargas {
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh 0.2vh #159436;
+}
+
+.gift-cards {
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh 0.2vh #ff000c;
+} 
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1vh;
+    margin-right: 0vh;
+    font-size: 3vh;
+    transition: all 0.3s ease;
+}
+nav a:hover {
+    color: red;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 0em;
+}
+li {
+    padding: 5px;
+    margin: 7px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+    border: white solid 1px;
+    margin-left: 1vh;
+    background:#222;
+}
+.menu1 li {
+    padding: 5px;
+    margin: 7px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+    border: white solid 1px;
+    background:#222;
+    margin-left: 1vh;
+}
+a.option1 {
+    padding: 0;
+    margin-right: 0.5vh;
+    margin-top: 1vh;
+    color: red;
+}
+ a.optiona {
+    margin-left: 1vh;
+    color: #fff;
+}
+ a.optionb {
+    color: #fff;
+
+}
+
+    .option {
+        color: red;
+        border-radius: 2vh;
+        padding: 1vh;
+        margin-right: 1vh;
+    }
+    
+.menu-item {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    
+}
+
+    .menu {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #525151 transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.5);
+        font-size:1em;
+        
+    }
+  
+  .menu::-webkit-scrollbar {
+    width: 1px;
+  }
+  .container-principal {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente   
+   (opcional) */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando a tela ficar pequena */
+    margin-top:1.2em;
+    overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #525151 transparent;
+  }
+  
+  .card {
+    font-family: 'Roboto', sans-serif;
+    width: 20%;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 10px;
+    border: ridge #222;
+}
+  
+  .container-link {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #ccc8c8; /* Adiciona a borda sólida de 2px */
+    border-radius: 10px; /* Arredonda as bordas */
+  }
+  .container-link img {
+    /* Estilos para a imagem */
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px 10px 2px 3px;
+  }
+  
+  .container-link p {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+@media (max-width: 768px) {
+    header {
+        background: linear-gradient(to right, #000, #d3d3d3);
+        height: auto;
+        display: block;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+      .logo {
+        width: 100%;
+        height: auto;
+      }
+      .slogan {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        color: #fff;
+        font-size: 1.5vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .recargas {
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh 0.2vh #159436;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+}
+
+.gift-cards {
+    color: #fff;
+    text-shadow: 0.2vh 0.2vh 0.2vh #ff000c;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+} 
+nav.menu1 {
+    justify-content: center;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1vh;
+    margin-right: 0.5vh;
+    font-size: 1.8vh;
+    transition: all 0.3s ease;
+}
+
+.option1 {
+    color: red;
+    border-radius: 2vh;
+    margin-right: 0vh;
+    margin-top: 1vh;
+    }
+    
+.option {
+    color: red;
+    border-radius: 2vh;
+    padding: 0;
+    margin-right: 1vh;
+    margin-left: 0.5vh;
+    margin-top: 1vh;
+}
+    .optiona {
+    margin-left: 2vh;
+}
+.menu {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #525151 transparent;
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    margin-top:0.5vh;
+}
+    .card {
+    width: 43%;
+    border: ridge #222;
+
+  }
+}
